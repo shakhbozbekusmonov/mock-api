@@ -1,5 +1,11 @@
+import SiteHeader from '@/components/SiteHeader'
+
 const App = () => {
-	return <div>App</div>
+	return (
+		<>
+			<SiteHeader />
+		</>
+	)
 }
 
 export default App
